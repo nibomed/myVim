@@ -45,3 +45,5 @@ colorscheme zellner
 hi Statement ctermfg=184
 hi Function ctermfg=32
 hi javaScriptParens ctermfg=70
+
+autocmd BufNewFile,BufRead *.abi   set syntax=json
